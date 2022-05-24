@@ -1,0 +1,49 @@
+.textMain{
+    animation-name: transitionn;
+    animation-duration: 2s;
+
+}
+
+@keyframes transitionn {
+    0%{
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 0.70;
+    }
+
+    70%{
+        opacity: 0.30;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.contEfect{
+    animation-name: opacityContent;
+    animation-duration: 4s;
+    position: relative;
+}
+
+@keyframes opacityContent{
+    0%{
+        opacity: 1;
+        left:-40px;
+    }
+
+    30%{
+        opacity: 0.70;
+    }
+
+    70%{
+        opacity: 0.30;
+    }
+
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
